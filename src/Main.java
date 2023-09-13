@@ -9,5 +9,7 @@ public class Main {
         System.out.println("Logradouro: " + endereco.getLogradouro());
         System.out.println("Bairro: " + endereco.getBairro());
         System.out.println("Localidade: " + endereco.getLocalidade());
+
+        /* teste para fazer um novo commit */
     }
 }

@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         System.out.print("Informe seu CEP: ");
         String cep = new Scanner(System.in).nextLine();
+
         Endereco(cep);
 
 

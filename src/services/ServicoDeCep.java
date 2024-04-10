@@ -1,7 +1,8 @@
+package services;
+
 import com.google.gson.Gson;
-
-
-
+import entities.Endereco;
+import utilities.Utill;
 
 
 import java.io.BufferedReader;
@@ -31,7 +32,7 @@ public class ServicoDeCep {
 
             return endereco;
         } catch (Exception e){
-            throw new Exception("ERRO: " + e);
+            throw new Exception("ERRO: " + e.getMessage());
         }
     }
 }

@@ -1,3 +1,6 @@
+import entities.Endereco;
+import services.ServicoDeCep;
+
 import java.util.Scanner;
 
 public class Main {
